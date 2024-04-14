@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url('../IMG/20201017_165756142_iOS.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Antique Olive Std', sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 38vh;
+    left: 0;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome {
+
+    font-size: 7em;
+    color: yellow;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    font-size: 1em;
+    border-radius: 20px;
+    background-color: aquamarine;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.button a {
+    
+    text-decoration: none;
+    list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Antique Olive Std', sans-serif;
+        font-weight: 400;
+        position: relative;
+        top: 38vh;
+        left: 0vw;
+    }
+}
